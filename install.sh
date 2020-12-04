@@ -1,9 +1,5 @@
 #!/bin/sh
 
-set -e
-
-cd "$(dirname "$0")/.."
-
 echo ""
 echo "[INSTALL] 	=>	power_button_script.py"
 sudo cp power_button_script.py /usr/local/bin/
@@ -11,7 +7,7 @@ sudo chmod +x /usr/local/bin/power_button_script.py
 echo ""
 
 echo "[INSTALL] 	=>	power_button_bash.sh"
-sudo cp power_button_bash.sh /usr/local/bin/
+sudo cp power_button_bash.sh /etc/init.d/ 
 sudo chmod +x /etc/init.d/power_button_bash.sh
 echo ""
 

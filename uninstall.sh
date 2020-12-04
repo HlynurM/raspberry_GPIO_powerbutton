@@ -1,8 +1,8 @@
 #!/bin/sh
 
-set -e
+#set -e
 
-cd "$(dirname "$0")/.."
+#cd "$(dirname "$0")/.."
 
 echo ""
 echo "[UN-INSTALL] 	=>	Stopping power button system updates"
